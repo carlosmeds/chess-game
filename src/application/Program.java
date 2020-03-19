@@ -15,6 +15,7 @@ public class Program {
         Scanner sc = new Scanner(System.in);
         while (true) {
             try {
+                UI.clearScreen();
                 UI.printBoard(chessMatch.getPieces());
 
                 System.out.println();
